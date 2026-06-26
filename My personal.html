@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY WEBSITE</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#b9dceb;
+    font-family:Georgia, serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+}
+
+.hero{
+    background:#ff929a;
+    height:500px;
+    position:relative;
+}
+
+.nav{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    padding:35px;
+}
+
+.nav a{
+    text-decoration:none;
+    color:#222;
+    font-size:14px;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:bold;
+}
+
+.cat{
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%);
+    font-size:250px;
+    line-height:1;
+}
+
+.info{
+    background:white;
+    width:90%;
+    margin:auto;
+    margin-top:-40px;
+    padding:60px;
+    text-align:center;
+
+    box-shadow:
+    0 30px 60px rgba(0,0,0,.12);
+}
+
+.small{
+    font-style:italic;
+    letter-spacing:6px;
+    color:#444;
+}
+
+h1{
+    margin:15px 0 30px;
+    font-size:52px;
+    letter-spacing:8px;
+    color:#18323c;
+}
+
+p{
+    color:#555;
+    max-width:600px;
+    margin:auto;
+    line-height:1.8;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="hero">
+
+        <div class="nav">
+            <a href="My personal.html">☰</a>
+            <a href="Next page.html">About myself</a>
+            <a href="Favorite.html">Favorites</a>
+
+            <div class="logo">JXOS</div>
+
+            
+        </div>
+
+        <div class="cat">
+            <img src="overlay.png" width="250px">
+        </div>
+
+    </div>
+
+    <div class="info">
+        <div class="small">Hello there</div>
+
+        <h1>WELCOME!</h1>
+
+        <p>
+            YOU WANNA KNOW MORE ABOUT ME? JUST PRESS THOSE OPTIONS ABOVE!
+            </p>
+
+           <p> CONTACTS: 09959823704 
+            Email Adress: rutaapril08@gmail.com
+
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
